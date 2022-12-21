@@ -1,0 +1,30 @@
+.border{
+
+    background-color:rgb(122, 169, 211, 0.943);
+    text-align: center ;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border:4px solid black ;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color:rgba(122, 169, 211, 0.943);
+}
+
+.answer{
+
+    background-color:rgb(122, 169, 211, 0.943);
+    text-align: center ;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border:4px solid black ;
+    border-radius: 20px;
+    text-align: center;
+}

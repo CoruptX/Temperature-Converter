@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='converter_style.css') }}">
+    <title>Converter</title>
+</head>
+<body>
+    <h1>Hello, I convert temperatures from °F to °C or the opposite.</h1>
+
+    <div class="border">
+        <h2>
+            Temperature Converter:
+        </h2>
+        <form method="POST">
+
+            Temperature: <input type="text" name="degrees" placeholder="Input Temperature..."><br>
+            <select name="temp">
+                <option value="fc">°F to °C</option>
+                <option value="cf">°C to °F</option>
+                <select><br>
+            <input type="submit" value="convert">
+        </form>
+    </div>
+</body>
+</html>
